@@ -1,7 +1,6 @@
 name: Testing work-flow
 
-on:
-  push:
+on: [push]
 
 jobs:
   Testing-first:
