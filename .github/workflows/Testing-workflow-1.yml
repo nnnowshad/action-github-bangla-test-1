@@ -1,9 +1,10 @@
 name: Testing work-flow
-on: push
+on:
+    push:
 jobs:
   Testing-first:
   runs-on: ubuntu-latest
   steps:
-    -name: "Testing first time I"
-    run: echo "Hello world!"
+    - name: "Testing first time I"
+      run: echo "Hello world!"
     
